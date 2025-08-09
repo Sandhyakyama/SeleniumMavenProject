@@ -11,18 +11,14 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
+    
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.21.0</version>
+            <version>4.23.0</version>
         </dependency>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.10.2</version>
-            <scope>test</scope>
-        </dependency>
+        
         
 <!-- WebDriverManager (auto-handles driver binaries) -->
 <dependency>
@@ -40,11 +36,19 @@
 </dependency>
 
     <!-- TestNG -->
+   <dependency>
+  <groupId>org.testng</groupId>
+  <artifactId>testng</artifactId>
+  <version>7.10.2</version>
+  <scope>test</scope>
+</dependency>
+
+    
     <dependency>
-        <groupId>org.testng</groupId>
-        <artifactId>testng</artifactId>
-        <version>7.10.1</version>
-        <scope>test</scope>
-    </dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>2.0.13</version>
+</dependency>
+
     </dependencies>
 </project>
