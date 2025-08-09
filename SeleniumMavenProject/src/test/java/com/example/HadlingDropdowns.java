@@ -11,6 +11,7 @@ public class HadlingDropdowns extends App {
 	public void Dropdowns() throws Exception {
 		Setup();
 		driver.get("https://www.hyrtutorials.com/p/html-dropdown-elements-practice.html");
+		//Single select dropdown.
 		/*
 		 * WebElement Dropdown=driver.findElement(By.id("course")); Select select =new
 		 * Select(Dropdown); System.out.println("Dropdown before selecting" + "");
